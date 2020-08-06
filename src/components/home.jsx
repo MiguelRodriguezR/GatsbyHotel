@@ -51,7 +51,7 @@ const HomeContent = () => {
       >{title}</h2>
       <InitText className="">
         <p>{content}</p>
-        <Image fluid={image.fluid} alt="" fadeIn="soft"/>
+        <Image fluid={image.fluid} alt=""/>
       </InitText>
     </>
   )
